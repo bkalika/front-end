@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "front_end_learning/1.0.0": {
+        "runtime": {
+          "front_end_learning.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "front_end_learning/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

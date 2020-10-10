@@ -1,0 +1,13 @@
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.exe
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.deps.json
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.runtimeconfig.json
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.runtimeconfig.dev.json
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.dll
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\bin\Debug\netcoreapp3.1\front_end_learning.pdb
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.csprojAssemblyReference.cache
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.AssemblyInfoInputs.cache
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.AssemblyInfo.cs
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.csproj.CoreCompileInputs.cache
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.dll
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.pdb
+E:\LEARN_FRONT_END\front_end_learning\front_end_learning\obj\Debug\netcoreapp3.1\front_end_learning.genruntimeconfig.cache

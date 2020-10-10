@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "itvdn_advance", "itvdn_advance", "{DFCCB259-928B-4716-9E6B-159977C2668A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lesson_1", "lesson_1", "{BEAE84D6-0496-4B7E-AC23-4311FABD9B7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Prototype", "03_Prototype", "{E763C61D-9132-4FEB-B1BA-BFDDC83EBED0}"
+	ProjectSection(SolutionItems) = preProject
+		001_Rectangle.html = 001_Rectangle.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEAE84D6-0496-4B7E-AC23-4311FABD9B7C} = {DFCCB259-928B-4716-9E6B-159977C2668A}
+		{E763C61D-9132-4FEB-B1BA-BFDDC83EBED0} = {BEAE84D6-0496-4B7E-AC23-4311FABD9B7C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA27442-7209-4CFD-85CF-AE12DF715DAC}
+	EndGlobalSection
+EndGlobal

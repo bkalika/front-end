@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Function-construncor Rectangle</title>
+    <script type="text/javascript">
+
+        function Rectangle(w, h) {
+            // property
+            this.width = w;
+            this.height = h;
+
+        //    this.getArea = function () {
+        //        return this.widht * this.height;
+        //    }
+        }
+
+        Rectangle.prototype.getArea = function () {
+            return this.width * this.height;
+        }
+
+        var rect = new Rectangle(100, 50);
+        document.write("Square of rectange " + rect.getArea());
+    </script>
+</head>
+<body>
+
+</body>
+</html>
