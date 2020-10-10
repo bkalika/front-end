@@ -1,7 +1,24 @@
-import calculator from './calculator';
+import MovieList from './components/movie-list';
 
-var a = 5;
-var b = 61;
+import moviesService from './movies-service';
 
-var sum = calculator.sum(a, b);
-console.log(sum);
+const input = document.querySelector('.search-input');
+const movieList = document.querySelector('.movies');
+const list = new MovieList();
+
+input.addEventListener('input', e => {
+    const searchText = e.target.value;
+
+    if (!searchText) {
+        list.clearList(movieList);
+        return;
+    }
+
+    moviesService.getVideoByText(searchText)
+        .then(result => {
+            list.renderMovies(result);
+
+            list.drawToDom(movieList);
+        });
+});
+ 
