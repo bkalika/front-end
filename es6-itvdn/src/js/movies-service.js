@@ -6,9 +6,17 @@ function getVideoByText(text){
     }
 
     return fetch(config.searchMovieUrl + text) 
-    .then(r => r.json());
+        .then(r => r.json());
+}
+
+function getVideoById(id) {
+    const url = `${config.baseMovieUrl}${config.queryMovieId}${id}${config.apiKey}`;
+
+    return fetch(url)
+        .then (r => r.json());
 }
 
 export default {
-    getVideoByText
+    getVideoByText,
+    getVideoById
 }
