@@ -1,4 +1,5 @@
 import MovieList from './components/movie-list';
+import movieDetail from './components/movie-detail';
 
 import moviesService from './movies-service';
 
@@ -39,6 +40,7 @@ filters. addEventListener('click', (e) => {
 
 movieList.addEventListener('click', e => {
     const target = e.target;
+
     const link = target.closest('.movie-link');
     let id;
 
@@ -51,8 +53,6 @@ movieList.addEventListener('click', e => {
     id = link.getAttribute('href');
     moviesService.getVideoById(id)
         .then(data => {
-            console.log(data);
+            movieDetail.renderMovie(data);
         })
-
-    
 });

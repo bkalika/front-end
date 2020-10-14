@@ -10,22 +10,23 @@
     <title>Movie</title>
     </head>
     <body>
-         <div class="">
-             <div class="col-md-12">
-                 <h1 class="main-title">Find the movie</h1>
-                 <div class="form-group search-block">
-                    <input type="text" class="search-input form-control">
-                    <ul class="filters">
-                        <li><a data-filters="rating-max" href="">Rating max.</a></li>
-                        <li><a data-filters="rating-min" href="">Rating min.</a></li>
-                        <li><a data-filters="rating-new" href="">New</a></li>
-                        <li><a data-filters="rating-old" href="">Old</a></li>
-                    </ul>
-                 </div>
-             </div>
-             <div class="container movies">
-
-             </div>
+         <div class="wrapper">
+             <div class="list-wrapper">
+                <div class="col-md-12">
+                    <h1 class="main-title">Find the movie</h1>
+                    <div class="form-group search-block">
+                        <input type="text" class="search-input form-control">
+                        <ul class="filters">
+                            <li><a data-filters="rating-max" href="">Rating max.</a></li>
+                            <li><a data-filters="rating-min" href="">Rating min.</a></li>
+                            <li><a data-filters="rating-new" href="">New</a></li>
+                            <li><a data-filters="rating-old" href="">Old</a></li>
+                        </ul>
+                    </div>
+                    <div class="movies"></div>
+                </div>
+                <div class="movie-wrapper"></div>
+            </div>
          </div>
         <script src="bundle.js"></script>
     </body>
